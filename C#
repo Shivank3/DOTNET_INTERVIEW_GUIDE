@@ -1,1 +1,743 @@
 Questions
+
+Q1. What is the difference between Windows application development and web-based development?
+
+Ans. Windows app dev is for desktops, web dev is for browsers.
+Windows app dev is for desktop operating systems like Windows, macOS, and Linux.
+
+Web dev is for browsers and can be accessed from any device with an internet connection.
+
+Windows app dev uses GUI frameworks like Windows Forms or WPF.
+
+Web dev uses web technologies like HTML, CSS, and JavaScript.
+
+Examples of Windows apps include Microsoft Word and Adobe Photoshop.
+
+Examples of web apps include Facebook and Google Maps.
+
+View 11 more answers
+right arrow
+
+Software Development
+Q2. How many ways are there to send data to a controller from a View?
+Ans. There are multiple ways to send data from View to controller in ASP.NET MVC, including form submission, AJAX calls, query strings, and model binding.
+Form submission using HTML forms
+
+AJAX calls using jQuery or other JavaScript libraries
+
+Query strings in the URL
+
+Model binding in ASP.NET MVC
+
+View 1 answer
+right arrow
+
+Web Development
+
+Software Development
+DOT NET Developer Interview Questions and Answers for Freshers
+
+View all interview questions
+illustration image
+Q3. What is Trigger,Store procedure, join in sql query and their syntax
+Ans. A trigger is a database object that is automatically executed in response to certain events. A stored procedure is a named group of SQL statements that can be executed. A join is used to combine rows from two or more tables based on a related column between them.
+Triggers are used to enforce business rules, perform data validation, or automate tasks.
+
+Stored procedures are used to encapsulate a set of SQL statements for reuse and better performance.
+
+Joins are used to retrieve data from multiple tables based on a related column.
+
+Syntax examples: TRIGGER trigger_name {BEFORE | AFTER} {INSERT | UPDATE | DELETE} ON table_name FOR EACH ROW BEGIN ... END;
+
+Syntax examples: CREATE PROCEDURE procedure_name [parameters] AS BEGIN ... END;
+
+Syntax examples: SELECT column_name(s) FROM table1 JOIN table2 ON table1.column_name = table2.column_name;
+
+View 2 more answers
+right arrow
+
+SQL
+
+Triggers
+Q4. What kind of database have you used in your projects?
+Ans. I have experience working with various databases including SQL Server, Oracle, and MySQL.
+I have worked with SQL Server extensively and have experience in writing complex queries and stored procedures.
+
+I have also worked with Oracle and have experience in creating and managing tables, indexes, and views.
+
+I have used MySQL for smaller projects and have experience in designing and implementing databases.
+
+I am familiar with database design principles and normalization techniques.
+
+I h...read more
+
+View 1 answer
+right arrow
+Are these interview questions helpful?
+
+yes
+Yes
+
+no
+No
+Q5. What are the components of the .NET Framework and their types?
+Ans. The components of .NET Framework include Common Language Runtime, Class Library, and ASP.NET.
+Common Language Runtime (CLR) - manages memory, security, and execution of code
+
+Class Library - provides a set of reusable classes and types for building applications
+
+ASP.NET - a web application framework for building dynamic web pages and web services
+
+Other components include ADO.NET, Windows Communication Foundation (WCF), Windows Presentation Foundation (WPF), and Windows Workflow Fou...read more
+
+
+Add your answer
+right arrow
+Q6. What are the differences between abstract classes and interfaces? When would you choose one over the other, and why?
+Ans. Abstract class is used when there is a need for default implementation, while interfaces are used for multiple inheritance.
+Abstract classes can have both abstract and non-abstract methods, while interfaces can only have abstract methods.
+
+Abstract classes can provide default implementations for methods, while interfaces cannot.
+
+Interfaces allow a class to implement multiple interfaces, but can only inherit from one abstract class.
+
+Use abstract classes when there is a need for a common base implementation, and interfaces when multiple inheritance is required.
+
+
+Add your answer
+right arrow
+Share interview questions and help millions of jobseekers 🌟
+
+
+Share interview questions
+man-with-laptop
+Q7. Is it possible to have two primary keys in an SQL table?
+Ans. No, only one primary key can be defined in a SQL table.
+Primary key ensures uniqueness of each record in a table.
+
+A table can have only one primary key constraint.
+
+However, a composite primary key can be created using multiple columns.
+
+View 1 answer
+right arrow
+
+SQL
+Q8. What are JOINs in SQL, and what is the difference between Inner JOIN and Equi JOIN? Illustrate with an example.
+Ans. JOINS are used in SQL to combine data from two or more tables based on a related column.
+Inner JOIN returns only the matching rows from both tables
+
+Equi JOIN is a type of Inner JOIN where the join condition is based on equality between two columns
+
+Example: SELECT * FROM table1 INNER JOIN table2 ON table1.column = table2.column
+
+
+Add your answer
+right arrow
+
+SQL
+DOT NET Developer Jobs
+UST GLOBAL TECHNOLOGY SERVICES logo
+Developer III - .Net Developer • 5-8 years
+UST GLOBAL TECHNOLOGY SERVICES
+ • 
+3.8
+Kochi
+
+Apply now
+Infosys logo
+Dot Net Developer- (F2F Interview-24th May) • 3-8 years
+Infosys
+ • 
+3.6
+Hyderabad / Secunderabad
+
+Apply now
+Infosys logo
+Dot Net Developer- (F2F Interview-24 May) • 3-8 years
+Infosys
+ • 
+3.6
+Hyderabad / Secunderabad
+
+Apply now
+View all DOT NET Developer jobs
+right arrow
+Q9. If you have a static constructor and a default constructor, which gets executed first?
+Ans. Static constructor gets executed first before default constructor.
+Static constructor is called only once, when the class is first accessed or instantiated.
+
+Default constructor is called every time a new instance of the class is created.
+
+Example: If a class has both static and default constructors, the static constructor will be executed before the default constructor.
+
+
+Add your answer
+right arrow
+
+C++
+Q10. what is filter? How to add custom filter? How to configure middleware?
+Ans. Filters are used to manipulate incoming and outgoing requests. Custom filters can be added and middleware can be configured to handle them.
+Filters are used to modify or validate incoming and outgoing requests in ASP.NET Core.
+
+Custom filters can be added by creating a class that implements IFilterMetadata interface.
+
+Middleware can be configured to handle filters using the UseFilter extension method.
+
+Filters can be used for authentication, caching, logging, and more.
+
+Filters can be global, controller-level, or action-level.
+
+
+Add your answer
+right arrow
+
+Web Development
+Q11. If you have a class with a private variable, can you use that class in another class?
+Ans. Yes, by using access modifiers like public or internal.
+Yes, by changing the access modifier of the class to public or internal.
+
+Private variables can be accessed within the same class but not outside. Use properties or methods to access them in other classes.
+
+Example: class A has a private variable 'x'. In class B, create an instance of class A and access 'x' using a public method or property.
+
+
+Add your answer
+right arrow
+Q12. In your project, how did you connect your application with the database?
+Ans. I used Entity Framework to connect the application with the database.
+Utilized Entity Framework for ORM mapping
+
+Configured connection string in the application's configuration file
+
+Used LINQ queries to interact with the database
+
+
+Add your answer
+right arrow
+Q13. Select ID, Name from Employee where Salary = (Select Max(Salary) from Employee);
+Ans. The query selects the ID and Name of the employee with the highest salary.
+The query uses a subquery to find the maximum salary in the Employee table.
+
+The outer query then selects the ID and Name of the employee with that maximum salary.
+
+
+Add your answer
+right arrow
+
+SQL
+Q14. from sql: temp table vs table variable, write query to sum +ve and -ve no in separate column from java script: == vs ===
+Ans. Comparison of temp table and table variable in SQL and difference between == and === in JavaScript.
+Temp tables are stored in tempdb and table variables are stored in memory.
+
+Temp tables can be indexed and used in joins, while table variables cannot.
+
+== compares values while === compares values and data types in JavaScript.
+
+View 1 answer
+right arrow
+
+SQL
+
+JavaScript
+Q15. String vs String Builder. Comparision of their mutability, speed, memory allocated, usability. Was provided a use case and asked which one to use and how. String Interpolation. String Manipulation.
+Ans. String is immutable, while StringBuilder is mutable. StringBuilder is faster and more memory efficient for string manipulation.
+String is immutable, meaning once created, it cannot be changed. StringBuilder is mutable, allowing for efficient string manipulation.
+
+StringBuilder is faster than String for concatenating multiple strings, as it does not create a new string object each time.
+
+String uses more memory as it creates a new object every time it is modified, while StringBuild...read more
+
+
+Add your answer
+right arrow
+
+Java
+
+Data Structures
+Q16. What is oops? Oops is a object oriented programing system
+Ans. Object-oriented programming (OOP) is a programming paradigm that uses objects to represent and manipulate data.
+OOP focuses on creating reusable code by organizing data and behavior into objects.
+
+It emphasizes concepts like encapsulation, inheritance, and polymorphism.
+
+Objects have attributes (data) and methods (functions) that can interact with each other.
+
+Example: In C#, classes are used to define objects and their properties and methods.
+
+View 2 more answers
+right arrow
+Q17. What changes should be made to both the backend and frontend when a new field is added in order to ensure that data flows from the backend to the user interface (UI) in the Model-View-Controller (MVC) architect...read more
+Ans. Adding a new field in MVC requires updates in the backend and frontend for seamless data flow.
+1. Update the Model: Add the new field to the data model class (e.g., 'public string NewField { get; set; }' in C#).
+
+2. Update the Database: Modify the database schema to include the new field (e.g., using a migration in Entity Framework).
+
+3. Update the Controller: Ensure the controller retrieves and sends the new field data to the view (e.g., 'return View(model);').
+
+4. Update the View:...read more
+
+
+Add your answer
+right arrow
+Q18. How database is connected in current project and Can we update multiple databse using DbSet?
+Ans. Database is connected using Entity Framework in current project. Yes, we can update multiple databases using DbSet.
+Database is connected using Entity Framework which provides a data access layer for interacting with the database.
+
+DbSet is a collection of entities that can be queried, updated, inserted, and deleted in the database.
+
+By using DbSet, we can update multiple databases by specifying the database context for each operation.
+
+Example: dbContext1.Set().Add(entity); dbConte...read more
+
+
+Add your answer
+right arrow
+
+Entity Framework
+Q19. What is the difference between an Abstract Class and an Interface?
+Ans. Abstract class can have implementation details while interface cannot. Class can implement multiple interfaces but only inherit from one abstract class.
+Abstract class can have method implementations while interface cannot.
+
+A class can implement multiple interfaces but can only inherit from one abstract class.
+
+Interfaces are used to define a contract for classes to implement, while abstract classes are used to provide a common base for subclasses.
+
+Abstract classes can have constr...read more
+
+
+Add your answer
+right arrow
+
+Java
+Frequently asked in
+Infosys
+,
+TCS
+,
+Capgemini
+Q20. Class A { } ClassB:A { } Static void Main() { A obj1 = new A(); A obj2 = new B(); B obj3 = new B(); B obj4 = new A();
+Ans. The code snippet demonstrates object instantiation and inheritance in C#.
+Class B inherits from Class A.
+
+Objects of Class A and Class B can be instantiated.
+
+An object of a derived class can be assigned to a base class reference variable.
+
+
+Add your answer
+right arrow
+
+C#
+Q21. Describe Pipelines and Middlewares in .NET and how you would configure them.
+Ans. Pipelines and Middlewares in .NET are used for request processing and can be configured using middleware components.
+Pipelines in .NET are used to define a series of middleware components that process an HTTP request.
+
+Middlewares are components that can handle requests and responses in the pipeline.
+
+To configure pipelines and middlewares in .NET, you can use the 'UseMiddleware' method in the 'Configure' method of the Startup class.
+
+You can also use extension methods like 'UseRout...read more
+
+
+Add your answer
+right arrow
+
+Software Development
+
+Middleware
+Q22. What is Encapsulation? How do you hide data using Encapsulation?
+Ans. Encapsulation is the concept of bundling data and methods that operate on the data within a single unit.
+Encapsulation helps in hiding the internal state of an object and restricting access to it.
+
+Data hiding is achieved by making the variables private and providing public methods to access or modify them.
+
+For example, a class 'Car' may have private variables like 'model' and 'year' with public methods like 'getModel()' and 'setYear()' to access or modify them.
+
+
+Add your answer
+right arrow
+
+Encapsulation
+Q23. What happens if we have the same methods in two interfaces?
+Ans. Conflict arises and implementing class must explicitly implement the method from both interfaces.
+Conflict arises when implementing class implements both interfaces
+
+Implementing class must explicitly implement the method from both interfaces
+
+Example: Interface A and Interface B both have a method named 'foo', implementing class must provide implementation for 'foo' from both interfaces
+
+
+Add your answer
+right arrow
+Q24. What is dependency injection? How to implement it? What is tightly coupled? What is loosely coupled?
+Ans. Dependency injection is a design pattern where the dependencies of an object are provided externally rather than created within the object itself.
+Dependency injection helps in achieving loosely coupled code by allowing objects to be easily replaced or modified without changing the core logic.
+
+It involves injecting dependencies into a class through constructor injection, setter injection, or interface injection.
+
+Tightly coupled code refers to classes or components that are highl...read more
+
+
+Add your answer
+right arrow
+Q25. What is the Difference between Abstract and Interface? What is Sealed Class? Explain About non-generic class. What is managing and unmanaging?
+Ans. Abstract classes can have both abstract and non-abstract methods, while interfaces can only have abstract methods. Sealed classes cannot be inherited. Non-generic classes do not have type parameters.
+Abstract classes can have method implementations, while interfaces cannot.
+
+Interfaces can be implemented by multiple classes, but a class can only inherit from one abstract class.
+
+Sealed classes cannot be inherited by other classes.
+
+Non-generic classes do not have type parameters, un...read more
+
+
+Add your answer
+right arrow
+
+C#
+Q26. Variable 1 = 10; Variable 2 = 20; Variable 3 = 0; Variable 3 = Variable 1 * Variable 2; Do the calculation without using multiplication.
+Ans. Use bitwise operations to perform multiplication without using the * operator.
+Use bitwise left shift operator to multiply Variable 1 by 2^n where n is the value of Variable 2.
+
+Add the result of each left shift operation to get the final result.
+
+
+Add your answer
+right arrow
+Q27. How do you follow OOPS concepts and other best practices in your project?
+Ans. I follow OOPS concepts by using inheritance, encapsulation, polymorphism, and abstraction in my code.
+I use classes and objects to encapsulate data and behavior.
+
+I utilize inheritance to create a hierarchy of classes with shared attributes and methods.
+
+I implement polymorphism by overriding methods in derived classes.
+
+I apply abstraction to hide complex implementation details from the user.
+
+
+Add your answer
+right arrow
+
+Software Development
+Q28. What is Sql joins, cte, Sp vs function, user defined types,
+Ans. SQL joins are used to combine rows from two or more tables based on a related column between them.
+SQL joins are used to retrieve data from multiple tables based on a related column.
+
+Common types of joins include INNER JOIN, LEFT JOIN, RIGHT JOIN, and FULL JOIN.
+
+CTE (Common Table Expression) is a temporary result set that can be referenced within a SELECT, INSERT, UPDATE, or DELETE statement.
+
+Stored Procedures (SP) are precompiled SQL statements that are stored in the database an...read more
+
+
+Add your answer
+right arrow
+
+SQL
+Q29. Prepare an example of JWT authentication and OAuth for an API.
+Ans. JWT authentication and OAuth example for API
+Implement JWT authentication by generating a token upon user login and including it in the Authorization header of API requests
+
+Use OAuth for user authorization by obtaining access tokens from a third-party provider like Google or Facebook
+
+Ensure API endpoints validate JWT tokens and OAuth access tokens before allowing access to resources
+
+
+Add your answer
+right arrow
+
+Web Development
+Q30. Explain the Singleton design pattern and provide examples.
+Ans. Singleton architecture is a design pattern that restricts the instantiation of a class to one object.
+Singleton pattern ensures that only one instance of a class is created and provides a global point of access to it.
+
+Examples of Singleton pattern include database connections, logging classes, and configuration settings.
+
+Singleton pattern can be implemented using lazy initialization, eager initialization, or thread-safe initialization.
+
+Singleton pattern can also be implemented us...read more
+
+
+Add your answer
+right arrow
+
+Design Patterns
+
+Singleton
+Q31. What is Primary key? Can it be null? Can we have multiple primary key?
+Ans. Primary key uniquely identifies each record in a table. It cannot be null and there can be only one primary key.
+Primary key ensures each record in a table is unique
+
+Primary key cannot have null values
+
+Only one primary key can be defined for a table
+
+Primary key can be a single column or a combination of columns
+
+
+Add your answer
+right arrow
+Q32. What are the differences between stored procedures and functions, and what are the benefits of using each?
+Ans. Stored procedures are precompiled SQL queries stored in the database, while functions are user-defined routines that return a value.
+Stored procedures are used for performing specific tasks or operations on the database, while functions are used to return a single value.
+
+Stored procedures can contain multiple SQL statements and can have input and output parameters, while functions are more limited in their functionality.
+
+Stored procedures are generally used for complex business ...read more
+
+
+Add your answer
+right arrow
+Q33. How can you divide an array into two halves and sort each half in ascending order without using a new array?
+Ans. Divide array in two halves and keep each half in ascending order without using new Array.
+Use Array.sort() method to sort the original array
+
+Use Array.slice() method to divide the array into two halves
+
+Use Array.reverse() method to reverse the second half of the array
+
+
+Add your answer
+right arrow
+
+Algorithms
+Q34. What are HTML helpers? Can we create custom HTML Helpers?
+Ans. HTML helpers are methods that help in rendering HTML in a view. Yes, we can create custom HTML helpers.
+HTML helpers are methods that generate HTML markup in a view.
+
+They help in reducing the amount of HTML code that needs to be written in a view.
+
+Custom HTML helpers can be created by defining extension methods on the HtmlHelper class.
+
+Custom HTML helpers can be useful for generating reusable HTML components or complex HTML markup.
+
+Example: Creating a custom HTML helper to generat...read more
+
+
+Add your answer
+right arrow
+
+Web Development
+Q35. Write a query to find the 4th highest salary.
+Ans. Query to find 4th highest salary
+Use the 'ROW_NUMBER' function to assign a rank to each salary
+
+Order the salaries in descending order
+
+Select the salary with rank 4
+
+View 2 more answers
+right arrow
+
+SQL
+Q36. Can a static constructor have multiple arguments?
+Ans. No, static constructors cannot have multiple arguments.
+Static constructors in C# do not take any arguments.
+
+They are used to initialize static data members or perform any necessary setup for the class.
+
+Example: public static MyClass() { // constructor code }
+
+
+Add your answer
+right arrow
+
+C#
+Q37. Can we write multiple stored procedures Inside Stored Procedures? Can we write functions inside stored procedures?
+Ans. Yes, we can write multiple stored procedures inside stored procedures. Functions can also be written inside stored procedures.
+Yes, you can call one stored procedure from another stored procedure.
+
+You can also define and call functions inside a stored procedure.
+
+Example: CREATE PROCEDURE spOuter AS BEGIN CREATE PROCEDURE spInner AS ... END; END;
+
+Example: CREATE PROCEDURE spOuter AS BEGIN CREATE FUNCTION fnInner() RETURNS ... AS ... END; END;
+
+
+Add your answer
+right arrow
+Q38. How many sessions can an application have?
+Ans. The number of sessions in an application is not fixed and can vary based on the application's design and requirements.
+The number of sessions in an application can depend on factors such as user activity, server capacity, and session management techniques.
+
+For example, a simple web application may have a limited number of sessions based on the server's capacity, while a complex enterprise application may have a larger number of sessions to handle multiple users and tasks.
+
+Sessio...read more
+
+
+Add your answer
+right arrow
+
+Software Development
+Q39. What is globalization? How to support multiple languages in application?
+Ans. Globalization is the process of designing and developing applications that can be used in multiple languages and cultures.
+Use resource files to store text in different languages
+
+Use Unicode encoding to support different character sets
+
+Use culture-specific formatting for dates, times, and numbers
+
+Test the application with different languages and cultures to ensure proper functionality
+
+
+Add your answer
+right arrow
+
+Software Development
+Q40. What will be the output of the following C# code? static void Main() { int val = 5; Show(val); Console.WriteLine("Value of val is " + val); } internal class Show { public static void Show(int i) { i *= i; Conso...read more
+Ans. The code snippet demonstrates a simple program in C# that declares a variable, calls a method to square its value, and then prints the updated value.
+The 'show' method takes an integer parameter and squares its value before printing it.
+
+The 'val' variable is passed to the 'show' method, which updates its value to 25.
+
+The final output will display the updated value of 'val' as 25.
+
+
+Add your answer
+right arrow
+
+C#
+Q41. Given a string, count the number of words in it. For example, for the input string "My Name is Nikhil", return 4.
+Ans. Count the number of words 'My Name is Nikhil'
+Split the sentence into individual words
+
+Count the number of words in the sentence
+
+
+Add your answer
+right arrow
+Q42. What is Compile-time binding and Runtime binding?
+Ans. Compile time binding occurs during compilation while runtime binding occurs during execution.
+Compile time binding is also known as early binding, where the method to be called is determined at compile time based on the type of the object.
+
+Runtime binding is also known as late binding, where the method to be called is determined at runtime based on the actual type of the object.
+
+Compile time binding is faster as it is done during compilation, while runtime binding is slower as i...read more
+
+
+Add your answer
+right arrow
+Q43. How can you change the layout page during runtime?
+Ans. You can change the layout page during runtime by dynamically setting the layout property in the code behind.
+Set the layout property in the code behind based on certain conditions or user input.
+
+Use conditional statements to determine which layout page to use.
+
+Example: if(userRole == 'admin') { Layout = '~/Views/Shared/_AdminLayout.cshtml'; } else { Layout = '~/Views/Shared/_UserLayout.cshtml'; }
+
+
+Add your answer
+right arrow
+
+Web Development
+Q44. What is Inheritance and what are the different types of Inheritance?
+Ans. Inheritance is a mechanism in OOP where a class inherits properties and behaviors from another class.
+Inheritance allows a class to reuse code from another class.
+
+Types of inheritance include single inheritance, multiple inheritance, multilevel inheritance, hierarchical inheritance, and hybrid inheritance.
+
+Example: Class B inheriting from Class A - B is a subclass of A.
+
+
+Add your answer
+right arrow
+Q45. What is method overloading and method overriding?
+Ans. Method overloading is when multiple methods have the same name but different parameters. Method overriding is when a subclass provides a specific implementation of a method that is already provided by its parent class.
+Method overloading allows a class to have multiple methods with the same name but different parameters.
+
+Method overriding occurs in a subclass when a method has the same name and parameters as a method in its superclass.
+
+Method overloading is resolved at compile t...read more
+
+
+Add your answer
+right arrow
+Frequently asked in
+TCS
+,
+Infosys
+Q46. What is the difference between Delete and Truncate?
+Ans. Delete removes rows one by one and can be rolled back, while Truncate removes all rows at once and cannot be rolled back.
+Delete is a DML command while Truncate is a DDL command.
+
+Delete can be rolled back using a transaction, while Truncate cannot be rolled back.
+
+Delete fires triggers on each row deletion, while Truncate does not fire triggers.
+
+Delete is slower as it removes rows one by one, while Truncate is faster as it removes all rows at once.
+
+Delete maintains the identity of ...read more
+
+
+Add your answer
+right arrow
+
+SQL
+Frequently asked in
+Hexaware Technologies
+,
+Cognizant
+,
+HCLTech
+Q47. What is MVC , Life cycle of MVC
+Ans. MVC stands for Model-View-Controller. It is a software architectural pattern used in web development.
+MVC separates the application into three interconnected components: Model, View, and Controller.
+
+Model represents the data and business logic of the application.
+
+View is responsible for rendering the user interface.
+
+Controller handles user input, updates the model, and interacts with the view.
+
+MVC follows a specific life cycle: Request is received, routing determines the appropria...read more
+
+View 1 answer
+right arrow
+
+Software Development
+
+MVC
+Q48. What are the types and number of constraints in your specific context?
+Ans. There are various types of constraints in DOT NET development, including primary key, foreign key, unique, check, and default constraints.
+Primary key constraints ensure each record in a table is unique.
+
+Foreign key constraints enforce referential integrity between tables.
+
+Unique constraints ensure that all values in a column are distinct.
+
+Check constraints validate the data before it is inserted or updated.
+
+Default constraints provide a default value for a column if no value is s...read more
+
+
+Add your answer
+right arrow
+Q49. What are interfaces, and why do we need them?
+Ans. Interfaces are contracts that define a set of methods and properties that a class must implement.
+Interfaces provide a way to achieve abstraction and polymorphism in object-oriented programming.
+
+They allow for loose coupling between classes and promote code reusability.
+
+Interfaces can be used to define common behavior across multiple classes.
+
+Example: IDisposable interface in C# ensures that an object can be properly disposed of when it is no longer needed.
+
+Example: IComparable in...read more
+
+
+Add your answer
+right arrow
+Q50. What is the difference between a data table and a dataset?
+Ans. Data table is a single table while dataset is a collection of tables.
+Data table is a single table that represents a single database table.
+
+Dataset is a collection of tables that can hold multiple tables from different databases.
+
+Data table can be used to store and manipulate data from a single table.
+
+Dataset can be used to store and manipulate data from multiple tables.
+
+Data table is a part of dataset.
+
+Dataset can hold multiple data tables.
