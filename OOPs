@@ -1,0 +1,8 @@
+| Modifier             | Access Level                                                           |
+| -------------------- | ---------------------------------------------------------------------- |
+| `private`            | Only within the same class                                             |
+| `protected`          | Within the same class or derived classes                               |
+| `internal`           | Anywhere in the same assembly                                          |
+| `protected internal` | Anywhere in the same assembly **or** in derived classes (even outside) |
+| `private protected`  | Only in derived classes **within the same assembly**                   |
+| `public`             | No restrictions (accessible from anywhere)                             |
